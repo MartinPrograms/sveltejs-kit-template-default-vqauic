@@ -281,14 +281,14 @@ function Button(){
 let Name = "";
 function load(){
 	const homepage = document.getElementById("home");
-		homepage.classList.add("hidden");
+		homepage.classList.remove("hidden");
 		const news = document.getElementById("news");
 		news.classList.add("hidden");
 		const contact = document.getElementById("contact");
 		contact.classList.add("hidden");
 		const about = document.getElementById("about");
-		about.classList.remove("hidden");
-		//alert("Deze website heeft wat moeite met tabladen verwisselen, om dit te fixen moet je uitzoomen naar ongeveer 80%. Dit zorgt voor een veel betere ervaring. (control en naar beneden scrollen)")
+		about.classList.add("hidden");
+		alert("Deze website heeft wat moeite met tabladen verwisselen, om dit te fixen moet je uitzoomen naar ongeveer 80%. Dit zorgt voor een veel betere ervaring. (control en naar beneden scrollen)")
 }
 function handleClick(index){
 	if(index == 1){
